@@ -3,7 +3,7 @@ let db = require('mysql2');
 let url = require('url');
 
 
-let connectionString = "mysql://doadmin:db-mysql-tor1-19416-do-user-18794098-0.d.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED";
+let connectionString = "mysql://doadmin:AVNS_9SRi_k8cAXyPWn39Gp7@db-mysql-tor1-19416-do-user-18794098-0.d.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED";
 let con = db.createConnection(connectionString);
 
 con.connect(function (err) {
